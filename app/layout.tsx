@@ -3,8 +3,8 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ScamEvo Demo UI",
-  description: "Minimal UI for ScamEvo backend demo",
+  title: "SCAM-EVO",
+  description: "Adversarially-robust scam intelligence and live simulation dashboard",
 };
 
 export default function RootLayout({
