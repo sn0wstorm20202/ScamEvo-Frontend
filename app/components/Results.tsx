@@ -3,9 +3,9 @@
 import { motion } from "framer-motion";
 
 const metrics = [
-    { label: "Robustness Improvement", value: "100%", sub: "Baseline vs Defended" },
-    { label: "Evasion Rate", value: "0%", sub: "Reduced from 40%" },
-    { label: "False Negatives", value: "0", sub: "Down from 36 samples" },
+    { label: "Robustness Improvement", value: "85%", sub: "Baseline vs Defended" },
+    { label: "Evasion Rate", value: "< 7%", sub: "Reduced from 40%" },
+    { label: "False Negatives", value: "Reduced", sub: "By 82% in holdout set" },
 ];
 
 export default function Results() {
