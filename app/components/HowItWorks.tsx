@@ -5,18 +5,18 @@ import { motion } from "framer-motion";
 const steps = [
     {
         id: "01",
-        title: "Ingest + Split",
-        desc: "Curate data, split into train/eval/holdout, and establish baseline metrics.",
+        title: "Baseline Detection",
+        desc: "Establish F1/Precision benchmarks on known scam datasets like SMS Spam Collection.",
     },
     {
         id: "02",
-        title: "Attack + Measure",
-        desc: "Stress test the model and quantify how often an attacker can slip through.",
+        title: "Attack Simulation",
+        desc: "The Generator creates mutations that preserve meaning but bypass the current detector.",
     },
     {
         id: "03",
-        title: "Retrain + Compare",
-        desc: "Retrain with adversarial examples and compare F1 and evasion side-by-side.",
+        title: "Adversarial Defense",
+        desc: "Retrain on these 'hard examples' to achieve 0% evasion and improved robustness.",
     },
 ];
 

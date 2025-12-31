@@ -5,18 +5,18 @@ import { Database, ShieldAlert, TrendingUp } from "lucide-react";
 
 const features = [
     {
-        title: "Dataset Ingestion",
-        desc: "Upload and inspect datasets, track sample balance, and validate labels before training.",
+        title: "Baseline Detection",
+        desc: "Train initial detector on known scam patterns and establish performance benchmarks.",
         icon: Database,
     },
     {
-        title: "Adversarial Eval",
-        desc: "Measure evasion under attack and visualize how “threats” move across latent space.",
+        title: "Adversarial Attack",
+        desc: "Generator creates semantic mutations to simulate how scammers evolve tactics.",
         icon: ShieldAlert,
     },
     {
-        title: "Defense Iteration",
-        desc: "Train against adversarial pressure and compare baseline vs defended performance.",
+        title: "Robust Retraining",
+        desc: "Augment training with hard examples to close defense gaps and reduce evasion.",
         icon: TrendingUp,
     },
 ];

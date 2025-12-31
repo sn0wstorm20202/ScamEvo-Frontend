@@ -38,8 +38,7 @@ export default function Hero({ streamlitUrl }: { streamlitUrl: string }) {
                     </motion.h1>
 
                     <motion.p variants={itemVariants} className="hero-desc">
-                        SCAM-EVO is a security-first pipeline turning real datasets into measurable robustness.
-                        Explore how adversarial pressure reshapes the decision boundary.
+                        Financial fraud detection is an adversarial game. Stop training on history—start evolving against the future.
                     </motion.p>
 
                     <motion.div variants={itemVariants} style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
